@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <style>
+            body {
+                font: 100% Courier New;
+                margin: 20px;
+                line-height: 26px;
+                background-color: #000000;
+            }
+            
+            .container {
+                min-width: 900px;
+            }
+            
+            .wrapper {
+                position: relative;
+                overflow: auto;
+            }
+            
+            #top {
+                color: #84c754;
+                padding: 15px;
+            }
+            
+            #main {
+                padding: 10px;
+                color: #84c754;
+            }
+            
+            #sidebar {
+                color: #ffffff;
+                border: 1px solid #ffffff;
+                border-radius: 4px;
+                padding: 10px;
+                width: 320px;
+                top: 0;
+                right: 0;
+                position: absolute;
+                font-size: 80%;
+                line-height: 20px;
+            }
+            
+            #bottom {
+                border: 1px solid #ffffff;
+                border-radius: 4px;
+                padding: 10px;
+                color: #ffffff;
+                text-align: center;
+                font-size: 70%;
+                line-height: 14px;
+            }
+            
+            #top h1,#top p {
+                margin: 0;
+            }
+            
+            #menubar a{
+                color: #84c754;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            
+            #menubar a:hover {
+                color: #ffffff;
+            }
+            
+            #main a {
+                color: #ffffff;
+            }
+            
+            #main a:hover {
+                color: #84c754;
+            }
+            </style>
+            
+    </head>
+
+    <body>
+        <div class="container wrapper"></div>
+            <div id="top">
+                <h1>Welcome to 22100159's Homepage</h1>
+                <p>Use the menu to select different Stylesheets</p>
+            </div>
+            <div class="wrapper">
+                <div id="menubar">
+                    <ul id="menulist">
+                        <li class="menuitem"><a href="index.html">Stylesheet 1</a></li>
+                        <li class="menuitem"><a href="stylesheet2.html">Stylesheet 2</a></li>
+                        <li class="menuitem"><a href="stylesheet3.html">Stylesheet 3</a></li>
+                        <li class="menuitem"><a href="stylesheet4.html" style="font-weight: bold;">Stylesheet 4</a></li>
+                        <li class="menuitem"><a href="nostylesheet.html">No Stylesheet</a></li>
+                    </ul>
+                </div>
+                <div id="main">
+                    <h1>Same Page Different Stylesheets</h1>
+                    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
+                    <u><a href="index.html">Stylesheet1</a></u>,
+                    <u><a href="stylesheet2.html">Stylesheet2</a></u>,
+                    <u><a href="stylesheet3.html">Stylesheet3</a></u>,
+                    <u><a href="stylesheet4.html">Stylesheet4</a></u>.
+                    </p>
+                    <h2>No Styles</h2>
+                    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:<br>
+                    <u><a href="nostylesheet.html">No Stylesheet</a></u>.
+                    </p>
+                </div>
+                <div id="sidebar">
+                    <h3>Side-Bar</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            <div id="bottom">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            </div>
+        </div>
+    </body>
+</html>
