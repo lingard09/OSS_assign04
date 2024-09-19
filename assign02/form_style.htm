@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>Checkout example · Bootstrap v5.2</title>
+
+    <style>
+      body{
+        font-family: system-ui;
+      }
+
+      .container{
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .top{
+        text-align: center;
+        padding: 48px 0px;
+      }
+
+      .logo{
+        margin: 0px 432px 24px;
+      }
+
+      h2{
+        font-size: 2rem;
+        margin: 0px 0px 8px;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+
+      .lead{
+        font-size: 1.25rem;
+        font-weight: 300;
+
+      }
+
+      .home{
+        position: relative;
+      }
+
+      .left{
+        flex: 0 0 auto;
+        width: 66.66666667%;
+      }
+
+      .sidebar {
+        bottom: 0;
+        right: 0;
+        top: 0;
+        position: absolute;
+        flex: 0 0 auto;
+        width: 33.33333333%;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        display: block;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+      }
+
+      .title{
+        margin-bottom: 1rem;
+
+      }
+
+      .firstName{
+        flex: 0 0 auto;
+        width: 50%;
+      }
+
+      .form_label{
+        margin-bottom: .5rem;
+      }
+
+      label{
+        display: inline-block;
+      }
+
+      .form_input {
+        display: block;
+        width: 90%;
+        padding: .375rem .75rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        appearance: none;
+        border-radius: .375rem;
+      }
+
+      .form_select {
+        display: block;
+        width: 100%;
+        padding: .375rem 2.25rem .375rem .75rem;
+        -moz-padding-start: calc(0.75rem - 3px);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: right .75rem center;
+        background-size: 16px 12px;
+        border: 1px solid #ced4da;
+        border-radius: .375rem;
+        appearance: none;
+      }
+
+
+      .name input{
+        width: 80%;
+      }
+
+      #zip{
+        width: 70%;
+      }
+
+      .name{
+        column-count: 2;
+      }
+
+      .info{
+        column-count: 2;
+      }
+
+      .detail{
+        column-count: 3;
+      }
+
+      hr {
+        margin: 1rem 0;
+        color: inherit;
+        border: 0;
+        border-top: 1px solid;
+        opacity: .25;
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+      }
+
+      .form-check {
+        display: block;
+        min-height: 1.5rem;
+        padding-left: 1.5em;
+        margin-bottom: .125rem;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top">
+        <img
+          class="logo"
+          src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg"
+          alt=""
+          width="72"
+          height="57"
+        />
+        <h2>Checkout form</h2>
+        <p class="lead">
+          Below is an example form built entirely with Bootstrap’s form
+          controls. Each required form group has a <br> validation state that can
+          be triggered by attempting to submit the form without completing it.
+        </p>
+      </div>
+
+      <div class="home">
+        <div class="left">
+          <h3 class="title">Billing address</h3>
+          <div class="name">
+            <div class="fistName">
+              <label class="form_label">First name</label>
+              <input type="text" class="form_input" id="firstName" placeholder value required>
+            </div>
+            <div class="lastName">
+              <label class="form_label">Last name</label>
+              <input type="text" class="form_input" id="lastName" placeholder value required>
+            </div>
+          </div>
+          <div class="username">
+            <label class="form_label">Username</label>
+            <input type="text" class="form_input" id="username" placeholder="Username">
+          </div>
+          <div class="email">
+            <label class="form_label">Email</label>
+            <input type="text" class="form_input" id="email" placeholder="you@example.com">
+          </div>
+          <div class="address">
+            <label class="form_label">Address</label>
+            <input type="text" class="form_input" id="address" placeholder="1234 Main St">
+          </div>
+          <div class="address2">
+            <label class="form_label">Address 2</label>
+            <input type="text" class="form_input" id="address2" placeholder="Apartment or suite">
+          </div>
+          <div class="detail">
+            <div class="country">
+              <label class="form_label">Country</label><br>
+                <select class="form_select" id="country" required>
+                    <option value="">Choose...</option>
+                    <option>United States</option>
+                </select>
+            </div>
+            <div class="state">
+              <label class="form_label">State</label><br>
+                <select class="form_select" id="country" required>
+                    <option value="">Choose...</option>
+                    <option>California</option>
+                </select>
+            </div>
+            <div class="zip">
+              <label class="form_label">Zip</label>
+              <input type="text" class="form_input" id="zip" placeholder value required>
+            </div>
+          </div>
+          <hr>
+          <div class="form_check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+          <div class="form_check">
+            <input type="checkbox" class="form-check-input" id="same-info">
+            <label class="form-check-label" for="same-info">Save this information for next time</label>
+          </div>
+          <hr>
+          <h3 class="title">Payment</h3>
+          <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+            <label class="form-check-label" for="credit">Credit card</label>
+          </div>
+          <div class="form-check">
+            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+            <label class="form-check-label" for="debit">Debit card</label>
+          </div>
+          <div class="form-check">
+            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+            <label class="form-check-label" for="paypal">PayPal</label>
+          </div>
+          <div class="info">
+            <div class="nameCard">
+              <label class="form_label">Name on card</label>
+              <input type="text" class="form_input" placeholder value required>
+            </div>
+            <div class="numberCard">
+              <label class="form_label">Credit card number</label>
+              <input type="text" class="form_input" placeholder value required>
+            </div>
+          </div>
+          
+
+        </div>
+
+        <div class="sidebar">
+          <h3 class="title">Your cart</h3>
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
