@@ -1,85 +1,84 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "genre": "Romance novel",
-        "publication_year": 1813,
-        "publication_place": "United Kingdom"
-      },
-      {
-        "id": 2,
-        "title": "The Moon and Sixpence",
-        "author": "William Somerset Maugham",
-        "genre": "Biographical novel",
-        "publication_year": 1919,
-        "publication_place": "United Kingdom"
-      },
-      {
-        "id": 3,
-        "title": "No Longer Human",
-        "author": "Osamu Dazai",
-        "genre": "Biographical novel",
-        "publication_year": 1948,
-        "publication_place": "Japan"
-      },
-      {
-        "id": 4,
-        "title": "Demian",
-        "author": "Hermann Hesse",
-        "genre": "Philosophical novel",
-        "publication_year": 1919,
-        "publication_place": "Germany"
-      },
-      {
-        "id": 5,
-        "title": "The Stranger",
-        "author": "Albert Camus",
-        "genre": "Philosophical novel",
-        "publication_year": 1942,
-        "publication_place": "France"
-      },
-      {
-        "id": 6,
-        "title": "Nineteen Eighty-Four",
-        "author": "George Orwell",
-        "genre": "Dystopian, SF",
-        "publication_year": 1949,
-        "publication_place": "United Kingdom"
-      },
-      {
-        "id": 7,
-        "title": "The Catcher in the Rye",
-        "author": "J. D. Salinger",
-        "genre": "Realistic, Coming-of-age novel",
-        "publication_year": 1951,
-        "publication_place": "United States"
-      },
-      {
-        "id": 8,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "genre": "Tragedy",
-        "publication_year": 1925,
-        "publication_place": "United States"
-      },
-      {
-        "id": 9,
-        "title": "The Sorrows of Young Werther",
-        "author": "Johann Wolfgang Goethe",
-        "genre": "Epistolary novel",
-        "publication_year": 1774,
-        "publication_place": "Germany"
-      },
-      {
-        "id": 10,
-        "title": "The Old Man and the Sea",
-        "author": "Ernest Hemingway",
-        "genre": "Literary fiction",
-        "publication_year": 1952,
-        "publication_place": "United States"
-      }
-    ]
-  }
-  
+  "books": [
+    {
+      "id": 1,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance novel",
+      "publication_year": 1813,
+      "publication_place": "United Kingdom"
+    },
+    {
+      "id": 2,
+      "title": "The Moon and Sixpence",
+      "author": "William Somerset Maugham",
+      "genre": "Biographical novel",
+      "publication_year": 1919,
+      "publication_place": "United Kingdom"
+    },
+    {
+      "id": 3,
+      "title": "No Longer Human",
+      "author": "Osamu Dazai",
+      "genre": "Biographical novel",
+      "publication_year": 1948,
+      "publication_place": "Japan"
+    },
+    {
+      "id": 4,
+      "title": "Demian",
+      "author": "Hermann Hesse",
+      "genre": "Philosophical novel",
+      "publication_year": 1919,
+      "publication_place": "Germany"
+    },
+    {
+      "id": 5,
+      "title": "The Stranger",
+      "author": "Albert Camus",
+      "genre": "Philosophical novel",
+      "publication_year": 1942,
+      "publication_place": "France"
+    },
+    {
+      "id": 6,
+      "title": "Nineteen Eighty-Four",
+      "author": "George Orwell",
+      "genre": "Dystopian, SF",
+      "publication_year": 1949,
+      "publication_place": "United Kingdom"
+    },
+    {
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "author": "J. D. Salinger",
+      "genre": "Realistic, Coming-of-age novel",
+      "publication_year": 1951,
+      "publication_place": "United States"
+    },
+    {
+      "id": 8,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Tragedy",
+      "publication_year": 1925,
+      "publication_place": "United States"
+    },
+    {
+      "id": 9,
+      "title": "The Sorrows of Young Werther",
+      "author": "Johann Wolfgang Goethe",
+      "genre": "Epistolary novel",
+      "publication_year": 1774,
+      "publication_place": "Germany"
+    },
+    {
+      "id": 10,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "genre": "Literary fiction",
+      "publication_year": 1952,
+      "publication_place": "United States"
+    }
+  ]
+}
